@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="main-1">
+        <div class="out"><img src="/images/book.jpg" alt="" /></div>
+        <div class="main-2">
+          <div class="header">SL. Edu</div>
+          <div class="nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="test.html">Comments</a></li>
+            <li><a href="test.html">More</a></li>
+          </div>
+          <div class="register">
+            <button>Buy Template</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="works-text-content">
+        <p>COMMON QUESTIONS</p>
+        <h1>Let's Work Together</h1>
+      </div>
+    </section>
+    <section>
+      <div class="form-container">
+        <form id="form" method="get">
+          <div class="works-form-input name">
+            <label for="name"
+              >NAME *
+              <span style="color: red; font-size: small" id="name_error"></span
+            ></label>
+            <input
+              type="text"
+              id="namee"
+              name="namee"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="works-form-input email">
+            <label for="email"
+              >EMAIL *
+              <span style="color: red; font-size: small" id="email_error"></span
+            ></label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Contact Email"
+            />
+          </div>
+          <div class="works-form-input project">
+            <label for=""
+              >PROJECT TYPE
+              <span
+                style="color: red; font-size: small"
+                id="project_error"
+              ></span
+            ></label>
+            <input type="text" id="project" name="project" />
+          </div>
+          <div class="works-form-input budget">
+            <label for=""
+              >BUDGET
+              <span
+                style="color: red; font-size: small"
+                id="budget_error"
+              ></span
+            ></label>
+            <input type="text" id="budget" name="budget" />
+          </div>
+          <div class="works-form-input textarea">
+            <label for="textarea"
+              >MESSAGE
+              <span
+                style="color: red; font-size: medium"
+                id="textarea_error"
+              ></span
+            ></label>
+            <textarea
+              placeholder="Describe your project"
+              name="textarea"
+              id="textarea"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="submit-button submit">
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
+              value="Submit Messeage"
+            />
+            <div class="error"></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+  <script src="works.js"></script>
+</html>
